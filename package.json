@@ -1,0 +1,28 @@
+{
+	"name": "howbigisthisimage",
+	"version": "1.0.0",
+	"description": "Efficiently retrieve properties about an image, or an MP4",
+	"keywords": [
+		"image",
+		"png",
+		"gif",
+		"jpeg",
+		"mp4",
+		"dimensions",
+		"size",
+		"width",
+		"height",
+		"duration"
+	],
+	"license": "WTFPL",
+	"files": [
+		"index.js"
+	],
+	"scripts": {
+		"test": "node_modules/.bin/mocha tests"
+	},
+	"devDependencies": {
+		"mocha": "8.3.2",
+		"expect.js": "0.3.1"
+	}
+}
